@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rupee Collector Game</title>
+    <!-- bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- css references -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--jQuery source-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Euphoria+Script|Prociono|Yanone+Kaffeesatz" rel="stylesheet">
+</head>
+
+<body>
+    <!--header-->
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 id=#rupeeChallenge>Rupee Challenge</h1>
+        </div>
+        <!--drop down instructions-->
+        <div class="col-md-8 col-md-offset-2 text-center instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four rupees below. By clicking on a rupee you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each rupee is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each rupee.</p>
+        </div>
+    </div>
+    <!--boxes-->
+    <div class="randomNumberContainer col-md-4 col-md-offset-6">Random
+        <br>
+        <button id="random-button" class="btn btn-primary btn-lg">
+            <h1><span class="glyphicon glyphicon-question-sign"></span></h1></button>
+    </div>
+    <div class="row">
+        <div class="winsLossesContainer col-md-6 col-md-offset-3">
+            <div id="wins">Wins:
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+                <img src="assets/images/green-rupee-win.png" alt="green-rupee" style="width:50px;height:50px;">
+            </div>
+            <div id="lives">Lives:
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+                <img src="assets/images/heart-container.png" alt="heart-container" style="width:50px;height:50px;">
+            </div>
+        </div>
+        <!--Rupee buttons-->
+        <div class="row">
+            <div class="rupeeContainer">
+                <div id="rupee1 col-md-3">Rupees
+                </div>
+                <div id="rupee2 col-md-3">Rupees</div>
+                <div id="rupee3 col-md-3">Rupees</div>
+                <div id="rupee4 col-md-3">Rupees</div>
+                <div id="totalScore"></div>
+            </div>
+        </div>
+        <!--music-->
+        <footer class="music">
+        <audio controls autoplay>
+  <source src="assets/music/02-kokiri.mp3" type="audio/mpeg">
+</audio>
+</footer>
+        <!--JAVASCRIPT-->
+        <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

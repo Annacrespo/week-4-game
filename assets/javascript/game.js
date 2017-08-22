@@ -84,4 +84,3 @@ let allCheck = function() {
     location.reload();
   }
 }
-

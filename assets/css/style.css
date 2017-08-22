@@ -1,10 +1,14 @@
 body {
 	background-image: url("../images/wallpaper-retro-zelda.jpg");
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	color: gold;
+	color:gold;
 	font-size: 20px;
 }
 
 .well-text-center	{opacity: 0.6;
     filter: alpha(opacity=60);
+   }
+
+ h4 {
+ 	color:black;
    }

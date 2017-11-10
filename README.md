@@ -1,6 +1,6 @@
 # Zelda Rupee Collector Game
 
-https://annacrespo.github.io/week-4-game/
+[Zelda Game] (https://annacrespo.github.io/week-4-game/)
 
 ## A fun and interactive game for web browsers. This app dynamically updates HTML pages with the jQuery library.
 

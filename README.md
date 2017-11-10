@@ -1,7 +1,5 @@
 # Zelda Rupee Collector Game
 
-[Zelda Game](https://annacrespo.github.io/week-4-game/ "Zelda Rupee Game")
-
 ## A fun and interactive game for web browsers. This app dynamically updates HTML pages with the jQuery library.
 
 ### Here's how the app works:
@@ -15,3 +13,5 @@ The player loses if their score goes above the random number and loses all their
 The game restarts whenever the player wins or loses.
 When the game begins again, the player should see a new random number. Also, all the rupee will have four new hidden values. Of course, the user's score will reset to zero.
 The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+
+[Play](https://annacrespo.github.io/week-4-game/ "Zelda Rupee Game")
